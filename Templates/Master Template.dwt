@@ -1,0 +1,26 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Untitled Document</title>
+<!-- TemplateEndEditable -->
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+</head>
+
+<body>
+	<table>
+		<tr>
+			<td colspan="2"><a href="../index.html">Home</a> <a href="../winter/index.html">Winter</a> <a href="../spring/index.html">Spring</a> <a href="../summer/index.html">Summer</a> <a href="../fall/index.html">Fall</a></td>
+		</tr>
+		<tr>
+			<td colspan="2">[Banner Goes Here]</td>
+		</tr>
+		<tr>
+			<td>[Secondary Navigation]</td>
+			<td><!-- TemplateBeginEditable name="Content" -->[General Content]<!-- TemplateEndEditable --></td>
+		</tr>
+	</table>
+</body>
+</html>
