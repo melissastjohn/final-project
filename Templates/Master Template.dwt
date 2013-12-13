@@ -3,24 +3,97 @@
 <head>
 <meta charset="utf-8">
 <!-- TemplateBeginEditable name="doctitle" -->
-<title>Untitled Document</title>
+<title>The Doctor Who Website</title>
 <!-- TemplateEndEditable -->
 <!-- TemplateBeginEditable name="head" -->
 <!-- TemplateEndEditable -->
+<!-- TemplateParam name="The Doctor Secondary Menu" type="boolean" value="false" -->
+<!-- TemplateParam name="Companions Secondary Menu" type="boolean" value="false" -->
+<!-- TemplateParam name="Villains Secondary Menu" type="boolean" value="true" -->
+<link href="../styles.css" rel="stylesheet" type="text/css">
+<!-- TemplateParam name="summer secondary navigation" type="boolean" value="false" -->
+<!-- TemplateParam name="Summer Secondary Menu" type="boolean" value="false" -->
 </head>
 
 <body>
-	<table>
-		<tr>
-			<td colspan="2"><a href="../index.html">Home</a> <a href="../winter/index.html">Winter</a> <a href="../spring/index.html">Spring</a> <a href="../summer/index.html">Summer</a> <a href="../fall/index.html">Fall</a></td>
-		</tr>
-		<tr>
-			<td colspan="2">[Banner Goes Here]</td>
-		</tr>
-		<tr>
-			<td>[Secondary Navigation]</td>
-			<td><!-- TemplateBeginEditable name="Content" -->[General Content]<!-- TemplateEndEditable --></td>
-		</tr>
-	</table>
+<div class="wrapper">
+        <table width="950">
+                        <tr>
+                                <td colspan="2">
+                                        <p><a href="../index.html">Home</a> <a href="../fall/index.html">Fall</a> <a href="../winter/index.html">Winter</a> <a href="../spring/index.html">Spring</a></p>
+        </td>
+                        </tr>
+                        <tr>
+                                <td colspan="2">[Banner]</td>
+                        </tr>
+                        <tr>
+                                <td class="secondary"><!-- TemplateBeginIf cond="_document['The Doctor Secondary Menu']" -->
+                                        <table>
+                                                <tr>
+                                                        <td><a href="../fall/fall-a-night-out.html">Fall Night Out</a></td>
+                                                </tr>
+                                                <tr>
+                                                        <td><a href="../fall/fall-accessories.html">Fall Accessories</a></td>
+                                                </tr>
+                                                <tr>
+                                                        <td><p><a href="../fall/fall-casual.html">Fall Casual</a></p></td>
+                                                </tr>
+                                                <tr>
+                                                        <td><a href="../fall/fall-work.html">Fall Work</a></td>
+                                                </tr>
+                                                <tr>
+                                                        <td><a href="../fall/fall-outerwear.html">Fall Outerwear</a></td>
+                                                </tr>
+                                        </table>
+                                        <!-- TemplateEndIf --><!-- TemplateBeginIf cond="_document['Companions Secondary Menu']" -->
+                                        <table>
+                                                <tr>
+                                                        <td><a href="../spring/spring-a-night-out.html">Spring Night Out</a></td>
+                                                </tr>
+                                                <tr>
+                                                        <td><a href="../spring/spring-accessories.html">Spring Accessories</a></td>
+                                                </tr>
+                                                <tr>
+                                                        <td><a href="../spring/spring-casual.html">Spring Casual</a></td>
+                                                </tr>
+                                                <tr>
+                                                        <td><a href="../spring/spring-work.html">Spring Work </a></td>
+                                                </tr>
+                                                <tr>
+                                                        <td><a href="../spring/spring-outerwear.html">Spring Outerwear</a></td>
+                                                </tr>
+                                        </table>
+                                        <!-- TemplateEndIf --><!-- TemplateBeginIf cond="_document['Villains Secondary Menu']" -->
+                                        <table>
+                                                <tr>
+                                                        <td width="104"><a href="../winter/winter-a-night-out.html">Winter Night Out</a></td>
+                                                </tr>
+                                                <tr>
+                                                        <td><a href="../winter/winter-accessories.html">Winter Accessories</a></td>
+                                                </tr>
+                                                <tr>
+                                                        <td><a href="../winter/winter-casual.html">Winter Casual</a></td>
+                                                </tr>
+                                                <tr>
+                                                        <td><a href="../winter/winter-work.html">Winter Work</a></td>
+                                                </tr>
+                                                <tr>
+                                                        <td><a href="../winter/winter-outerwear.html">Winter Outerwear</a></td>
+                                                </tr>
+                                        </table>
+                                        <!-- TemplateEndIf -->
+                                        <p>&nbsp;</p>
+                                        
+                                </td>
+                                
+                                <td>
+                                        <div class="doctor-who-content">
+                                                <!-- TemplateBeginEditable name="Content Area" -->[Content]<!-- TemplateEndEditable -->
+                                        </div>
+                                </td>
+                                
+                        </tr>
+  </table>
+</div>
 </body>
 </html>
