@@ -14,6 +14,7 @@
 <!-- TemplateParam name="summer secondary navigation" type="boolean" value="false" -->
 <!-- TemplateParam name="Summer Secondary Menu" type="boolean" value="false" -->
 </head>
+	
 
 <body>
 <div class="wrapper">
@@ -96,4 +97,8 @@
   </table>
 </div>
 </body>
+<body>
+	<div class= "wrapper"
+    </div>
+   
 </html>
